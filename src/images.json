@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "name": "Ana",
+    "image": "./assets/ana-pic.jpg",
+  },
+  {
+    "id": 2,
+    "name": "Sisterhoood",
+    "image": "./assets/anaElsa-images.jpg"},
+  {
+    "id": 3,
+    "name": "Snow Friends",
+    "image": "./assets/anaOlaf-images2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Elsa",
+    "image": "./assets/elsa-pic.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Magic Sisters",
+    "image": "./assets/elsaAna-pic.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kristoff",
+    "image": "./assets/kristof-pic.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Marshmello",
+    "image": "./assets/marshmello-pic.png"
+  },
+  {
+    "id": 8,
+    "name": "Olaf",
+    "image": "./assets/olaf-pic.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Prince Hans",
+    "image": "./assets/princeHans-pic.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Determined Ana",
+    "image": "./assets/sadAna-pic.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Pondering Elsa",
+    "image": "./assets/sadElsa-pic.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Swen",
+    "image": "./assets/swen-pic.jpg"
+}
+]
