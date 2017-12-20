@@ -1,1 +1,1 @@
-export { default } from "./GameImg.js";
+export { default } from "./PicButton.js";

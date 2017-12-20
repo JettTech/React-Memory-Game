@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PtsCounter from "./components/PtsCounter";
+import PtsCounter from "../PtsCounter";
 import "./Nav.css";
 
 const Nav = () =>

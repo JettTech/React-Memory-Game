@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PicButton from "./components/PicButton";
+import PicButton from "../PicButton";
 import "./GameBoard.css";
 import images from "../../images.json";
 

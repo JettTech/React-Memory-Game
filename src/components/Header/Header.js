@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = props => 
   <div>
  	<jumbotron>
-		<h1 className="title">Frozen Memory Game</h1>;
+		<h1 className="title">Star Wars Memory Game</h1>;
 		<div className="counter">{props.children}</div>;
 		<div className="header">{props.children}</div>;
 	</jumbotron>
