@@ -7,7 +7,8 @@
   {
     "id": 2,
     "name": "Sisterhoood",
-    "image": "./assets/anaElsa-images.jpg"},
+    "image": "./assets/anaElsa-images.jpg"
+  },
   {
     "id": 3,
     "name": "Snow Friends",
@@ -57,5 +58,5 @@
     "id": 12,
     "name": "Swen",
     "image": "./assets/swen-pic.jpg"
-}
+  }
 ]
