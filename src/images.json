@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "name": "Ana",
-    "image": "./assets/ana-pic.jpg",
+    "name": "Yoda",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Yoda_Empire_Strikes_Back.png",
   },
   {
     "id": 2,
-    "name": "Sisterhoood",
-    "image": "./assets/anaElsa-images.jpg"
+    "name": "Luke Skywalker",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Luke_Skywalker.png"
   },
   {
     "id": 3,
-    "name": "Snow Friends",
-    "image": "./assets/anaOlaf-images2.jpg"
+    "name": "Obi-Wan-Kenobi",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/32/Ben_Kenobi.png"
   },
   {
     "id": 4,
-    "name": "Elsa",
-    "image": "./assets/elsa-pic.jpg"
+    "name": "Han Solo",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg"
   },
   {
     "id": 5,
-    "name": "Magic Sisters",
-    "image": "./assets/elsaAna-pic.jpg"
+    "name": "C-3P0",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/413QsOUqUmL.jpg"
   },
   {
     "id": 6,
-    "name": "Kristoff",
-    "image": "./assets/kristof-pic.jpg"
+    "name": "BB-8",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/39/BB-8%2C_Star_Wars_The_Force_Awakens.jpg"
   },
   {
     "id": 7,
-    "name": "Marshmello",
-    "image": "./assets/marshmello-pic.png"
+    "name": "Rey",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/af/Rey_Star_Wars.png"
   },
   {
     "id": 8,
-    "name": "Olaf",
-    "image": "./assets/olaf-pic.jpg"
+    "name": "R2-D2",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/39/R2-D2_Droid.png"
   },
   {
     "id": 9,
-    "name": "Prince Hans",
-    "image": "./assets/princeHans-pic.jpg"
+    "name": "Finn",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2a/Finn-Force_Awakens_%282015%29.png"
   },
   {
     "id": 10,
-    "name": "Determined Ana",
-    "image": "./assets/sadAna-pic.jpg"
+    "name": "Padmé Amidala",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/ee/Amidala.png"
   },
   {
     "id": 11,
-    "name": "Pondering Elsa",
-    "image": "./assets/sadElsa-pic.jpg"
+    "name": "Anakin Skywalker",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg"
   },
   {
     "id": 12,
-    "name": "Swen",
-    "image": "./assets/swen-pic.jpg"
+    "name": "Princess Leia",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Princess_Leia%27s_characteristic_hairstyle.jpg"
   }
 ]
