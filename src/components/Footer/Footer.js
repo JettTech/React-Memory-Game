@@ -5,7 +5,7 @@ import "./Footer.css";
 const Footer = props => 
   <div>
  	<jumbotron>
-		<h4 className="footer">React Memory Game</h4>;
+		<h4 className="footer">The React Memory Game</h4>;
 	</jumbotron>
   </div>;
 
