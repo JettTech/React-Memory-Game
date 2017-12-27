@@ -9,9 +9,11 @@ const Nav = () =>
       <div className="navbar-header">
         <div>The React Memory Game</div>
         <Header/>
-        <PtsCounter type="button" className="collapsed navbar-toggle">
-          <span className="points-counter"></span>
-        </PtsCounter>
+        <div type="button" className="collapsed navbar-toggle">
+          <span className="points-counter">
+            <PtsCounter/>
+          </span>
+        </div>
         <a href="#" className="navbar-brand">
         </a>
       </div>

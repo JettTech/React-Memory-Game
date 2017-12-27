@@ -2,61 +2,73 @@
   {
     "id": 1,
     "name": "Yoda",
-    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Yoda_Empire_Strikes_Back.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Yoda_Empire_Strikes_Back.png",
+    "choosePic": false
   },
   {
     "id": 2,
     "name": "Luke Skywalker",
-    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Luke_Skywalker.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Luke_Skywalker.png",
+    "choosePic": false
   },
   {
     "id": 3,
     "name": "Obi-Wan-Kenobi",
-    "image": "https://upload.wikimedia.org/wikipedia/en/3/32/Ben_Kenobi.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/32/Ben_Kenobi.png",
+    "choosePic": false
   },
   {
     "id": 4,
     "name": "Han Solo",
-    "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg",
+    "choosePic": false
   },
   {
     "id": 5,
     "name": "C-3P0",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/413QsOUqUmL.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/I/413QsOUqUmL.jpg",
+    "choosePic": false
   },
   {
     "id": 6,
     "name": "BB-8",
-    "image": "https://upload.wikimedia.org/wikipedia/en/3/39/BB-8%2C_Star_Wars_The_Force_Awakens.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/39/BB-8%2C_Star_Wars_The_Force_Awakens.jpg",
+    "choosePic": false
   },
   {
     "id": 7,
     "name": "Rey",
-    "image": "https://upload.wikimedia.org/wikipedia/en/a/af/Rey_Star_Wars.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/af/Rey_Star_Wars.png",
+    "choosePic": false
   },
   {
     "id": 8,
     "name": "R2-D2",
-    "image": "https://upload.wikimedia.org/wikipedia/en/3/39/R2-D2_Droid.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/39/R2-D2_Droid.png",
+    "choosePic": false
   },
   {
     "id": 9,
     "name": "Finn",
-    "image": "https://upload.wikimedia.org/wikipedia/en/2/2a/Finn-Force_Awakens_%282015%29.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2a/Finn-Force_Awakens_%282015%29.png",
+    "choosePic": false
   },
   {
     "id": 10,
     "name": "Padmé Amidala",
-    "image": "https://upload.wikimedia.org/wikipedia/en/e/ee/Amidala.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/ee/Amidala.png",
+    "choosePic": false
   },
   {
     "id": 11,
     "name": "Anakin Skywalker",
-    "image": "https://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg",
+    "choosePic": false
   },
   {
     "id": 12,
     "name": "Princess Leia",
-    "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Princess_Leia%27s_characteristic_hairstyle.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Princess_Leia%27s_characteristic_hairstyle.jpg",
+    "choosePic": false
   }
 ]
