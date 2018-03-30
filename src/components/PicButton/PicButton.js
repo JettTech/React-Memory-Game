@@ -45,7 +45,7 @@ class PicButton extends Component {
       </div>
     );
   }
-}
+} 
 
 export default PicButton;
 
