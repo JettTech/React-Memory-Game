@@ -3,8 +3,9 @@
   font-family: sans-serif;
 }
 
-html, body {
+html, body, #root, #root > div {
   padding: 0;
   margin: 0;
   height: 100%;
+  background-color: #2C323C;
 }

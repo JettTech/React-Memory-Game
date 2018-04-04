@@ -1,47 +1,67 @@
 import React, { Component } from "react";
 import "./PtsCounter.css";
-import images from "../../images.json";
-
-let points = 0;
-function gameover() {
-		//reset ALL of the images(json).choosePic to false...
-		images.forEach(function(image) {
-			image.choosePic = false;
-		});		
-
- 		//display "start over" modal;
-			// >>>RESEARCH/FIGURE OUT how to do this part...
-};
 
 class PtsCounter extends Component {
 
 	state = {
-		points
+		message: "",
+		animating: false
 	};
 
-	countPoints = points => {
-		// //if the image has NOT yet been selected, then add point
-		if (this.choosePic === false) {
-			this.choosePic = true;
-			points ++;
-
+	//when a new "score" or "topScore" prop is received, then the "componentWillReceiveProps" fn commences...
+	componentWillReceiveProps({ score, topScore }) {
+		let newState = { animating: true };
+		if ( score === 0 && topScore === 0 ) {
+			newState.message = ""
+		}
+		else if ( score === 0 && topScore > 0 ) {
+			newState.message = "incorrect"
 		}
 		else {
-			points = 0;
-			console.log("SORRY! You didn't guess correctly.. you've guessed this one previously");
-			gameover()
+			newState.message = "correct"
 		}
 
-		this.setState({ points });
-	};
+		this.setState( newState, () =>
+			setTimeout( () => this.setState({ animating:false}), 500 )
+		);
+	}
+
+	renderMessage = () => {
+		switch (this.state.message) {
+			case "correct":
+				return "Good thinking! You're correct!";
+			case "incorrect":
+				return "You guessed incorrectly.";
+			default:
+				return "Click below to begin earning points."
+		}
+	}
 
   render() {
   	return (
-      <div className="point-counter">
-        Points: {this.state.points}
-      </div>
+	  <div className="point-counter">
+	    <li className={this.state.animating ? this.state.message : ""}>
+	        {this.renderMessage()}
+	    </li>
+	  </div>
     );
   }
-
 };
+
 export default PtsCounter;
+
+
+	// countPoints = points => {
+	// 	if (this.choosePic === false) {
+	// 		this.choosePic = true;
+	// 		points ++;
+
+	// 	}
+	// 	else {
+	// 		points = 0;
+	// 		console.log("SORRY! You didn't guess correctly.. you've guessed this one previously");
+	// 		gameover()
+	// 	}
+
+	// 	this.setState({ points });
+	// };

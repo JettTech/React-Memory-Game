@@ -1,28 +1,25 @@
 .header {
-  margin: 20px;
-  padding-top: 50px;
+  margin-top: 350px;
   background: #ECEFF1;
-  height: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  padding: 20px;
-  justify-content: space-around;
-  align-content: flex-start;
   overflow: auto;
+  background-color: black;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-image: url("/assets/images/geometry.svg");
+  background-repeat: repeat;
+  color: white;
+  min-height: 400px;
+  padding: 200px 20px; 
+  padding-bottom: 40px;
+  text-align: center;
 }
 
-.title {
-  width: 100%;
-  text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
-  margin-bottom: 50px;
+.header h2 {
+  color: #e0921c; 
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 2rem;
 }
 
-
-/*.title {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 50px;
-}*/
+.header h3 {
+  color: #e7d60f; 
+}

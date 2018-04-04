@@ -1,22 +1,21 @@
 //Global Imports
 import React from "react";
-import "./App.css";
 
-//Doc Components
-import Footer from "./components/Footer";
-import GameBoard from "./components/GameBoard";
-// import Header from "./components/Header";
+//Components
 import Nav from "./components/Nav";
+import Header from "./components/Header";
+import GameBoard from "./components/GameBoard";
+import Footer from "./components/Footer";
 
 
-
-const App = () => 
-{
+const App = props => (
   <div>
-    <Nav />
+    <Nav/>
+    <Header/>
     <GameBoard/>
     <Footer/>
-  </div>; 
-}     
+  </div>   
+);
 
 export default App;
+// const Container = props => <main className="container">{props.children}</main>;

@@ -1,12 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Footer.css";
 
 
-const Footer = props => 
-  <div>
- 	<jumbotron>
-		<h4 className="footer">The React Memory Game</h4>;
-	</jumbotron>
-  </div>;
+const Footer = () => (
+  <footer className="footer">
+	  <div className="fixed-bottom">
+		<h4>The React Memory Game : Starwars Episode</h4>
+	  </div>
+  </footer>
+);
 
 export default Footer;

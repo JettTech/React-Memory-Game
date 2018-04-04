@@ -1,8 +1,8 @@
 .game-board {
   margin: 50px;
 /*  padding: 50px*/
-  background: #ECEFF1;
-  height: 100%;
+  background: #e0a919;
+  max-height: 950px;
   display: flex;
   flex-flow: row wrap;
   padding: 20px;

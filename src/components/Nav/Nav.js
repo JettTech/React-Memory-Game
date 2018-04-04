@@ -1,24 +1,22 @@
-import React, { Component } from "react";
-import Header from "../Header";
+import React from "react";
 import PtsCounter from "../PtsCounter";
 import "./Nav.css";
 
-const Nav = () =>
+const Nav = props => (
   <nav className="navbar navbar-inverse navbar-top">
-    <div className="container-fluid">
-      <div className="navbar-header">
-        <div>The React Memory Game</div>
-        <Header/>
-        <div type="button" className="collapsed navbar-toggle">
-          <span className="points-counter">
-            <PtsCounter/>
-          </span>
-        </div>
-        <a href="#" className="navbar-brand">
-        </a>
-      </div>
-    </div>
-  </nav>;
+    <ul>
+      <li className="brand">
+        <a href="/">The React Memory Game</a>
+        <br/>
+        <a style={{color:"#e7d60f", textDecoration:"underline"}}>Star Wars Episode</a>
+      </li>
+      <PtsCounter score={props.score} topScore={props.topScore} />  
+      <li>
+        Score: {props.score} | Top Score: {props.topScore}
+      </li>
+    </ul>
+  </nav>
+);
 
 export default Nav;
 
