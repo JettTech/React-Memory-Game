@@ -1,10 +1,10 @@
 import React from "react";
 import "./Header.css";
-import {Collapsible, CollapsibleItem} from 'react-materialize';
+import {Collapsible, CollapsibleItem, Icon} from 'react-materialize';
 
 const Header = props => 
 	<Collapsible popout defaultActiveKey={1} className="header-container">
-	  <CollapsibleItem header='Official Game Guide' className="header">
+	  <CollapsibleItem header='  Official Game Guide' icon="dehaze" className="header">
 	  	<br/>
 	  	<h1>The React Memory Game</h1>
 		<h2>Play to discover how long can you remember your recent past.</h2>
