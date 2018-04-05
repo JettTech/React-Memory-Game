@@ -1,7 +1,14 @@
 import React, { Component } from "react";
-import "./GameBoard.css";
-import PicButton from "../PicButton";
 import images from "../../image-data.json";
+import "./GameBoard.css";
+
+
+//Components
+import Nav from "../Nav";
+import Header from "../Header";
+import Container from "../Container";
+import Footer from "../Footer";
+import PicButton from "../PicButton";
 
 
 
@@ -11,7 +18,7 @@ class GameBoard extends Component {
 		images,
     score: 0,
     topScore: 0,
-    lives: 10 
+    left: 11
 	};
 
   componenetDidMount() {
@@ -21,27 +28,32 @@ class GameBoard extends Component {
   };
 
   handleCorrectGuess = imagesLeft => {
-    const { topScore, score } = this.state;
+    const { topScore, score, left } = this.state;
     const increasedScore = score + 1;
     //use ternary to decide wheter new win delivered a new hightest score...
     const newTopScore = increasedScore > topScore ? increasedScore : topScore;
+    const newleft = left - 1;
     this.setState ({
       images: this.shufflePics(imagesLeft),
       score: increasedScore,
       topScore: newTopScore,
+      left: newleft
     })
   };
 
   handleIncorrectGuess = images => {
-    const { score, lives } = this.state;
-    const decreaasedScore = score - 1;
-    const decreaseLife = lives - 1;
     this.setState ({
       images: this.reset(images),
-      score: decreaasedScore,
-      lives: decreaseLife,
+      score: 0
     })
   };
+
+  handleWin = images => {
+    this.setState ({
+      images: this.reset(images),
+      score: 0
+    })
+  }
 
   shufflePics = images => {
     let currentIndex = images.length - 1;
@@ -70,6 +82,10 @@ class GameBoard extends Component {
         if(!newItem.clicked) {
           newItem.clicked = true;
           correctGuess = true;
+
+          if(this.state.score === 12) {
+            return this.handleWin(this.state.images)
+          }
         }
       }
       return newItem;
@@ -81,8 +97,11 @@ class GameBoard extends Component {
   // Map over this.state.images and render a PicButton component for each images(images.json) object
   render() {
     return (
-      <div className="game-board">
-        
+    <div>
+      <Nav score={this.state.score} topScore={this.state.topScore} />
+      <Header/>
+
+      <Container className="game-board">
         {this.state.images.map(item => (      
           <PicButton
             key={item.id}
@@ -93,8 +112,10 @@ class GameBoard extends Component {
             gameOver={this.state.lives !== 0 && this.state.topScore}
           />
         ))}
+      </Container>
 
-      </div>
+      <Footer/>
+    </div>
     );
 
   }

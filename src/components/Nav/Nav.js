@@ -6,13 +6,11 @@ const Nav = props => (
   <nav className="navbar navbar-inverse navbar-top">
     <ul>
       <li className="brand">
-        <a href="/">The React Memory Game</a>
-        <br/>
-        <a style={{color:"#e7d60f", textDecoration:"underline"}}>Star Wars Episode</a>
+        <a style={{color:"#e7d60f", textDecoration:"underline"}}>The Star Wars Episode</a>
       </li>
       <PtsCounter score={props.score} topScore={props.topScore} />  
       <li>
-        Score: {props.score} | Top Score: {props.topScore}
+        Score: {props.score} | Personal Best: {props.topScore}
       </li>
     </ul>
   </nav>

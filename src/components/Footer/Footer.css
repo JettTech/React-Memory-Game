@@ -2,14 +2,13 @@
   margin: 0 auto;
   margin-top: 20px;
   background-color: black;
-  height: 100px;
+  height: 120px;
   position: relative;
   color: #e0921c;
   overflow: auto;
 }
 
-.footer h4 {
-	padding-top: 20px;
+.footer h4 {;
 	text-align: center;
 }
 

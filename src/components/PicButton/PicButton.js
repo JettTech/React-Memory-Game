@@ -8,7 +8,7 @@ const PicButton = props => (
     </div>
 
     <div className="content">
-      <h4><strong>{props.name}</strong></h4>
+      <h4><strong style={{color:"#eee7c0"}}>{props.name}</strong></h4>
     </div>
   </div> 
 );

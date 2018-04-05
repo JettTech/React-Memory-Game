@@ -1,16 +1,28 @@
-.header {
+.header-container {
   margin-top: 350px;
   background: #ECEFF1;
+  padding: 20px 20px; 
+  border: 20px solid #e7d60f;
+}
+
+.header {
   overflow: auto;
   background-color: black;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   background-image: url("/assets/images/geometry.svg");
-  background-repeat: repeat;
-  color: white;
-  min-height: 400px;
-  padding: 200px 20px; 
+  background-repeat: repeat;;
+  color: #eee7c0; 
+  font-size: 2em;
+  padding: 20px; 
   padding-bottom: 40px;
   text-align: center;
+}
+
+.header h1 {
+  color: #e0921c; 
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 2em;
 }
 
 .header h2 {
@@ -22,4 +34,8 @@
 
 .header h3 {
   color: #e7d60f; 
+}
+
+.header-container {
+  background-color: #e0921c;
 }

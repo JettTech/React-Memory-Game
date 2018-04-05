@@ -11,7 +11,10 @@ class PtsCounter extends Component {
 	//when a new "score" or "topScore" prop is received, then the "componentWillReceiveProps" fn commences...
 	componentWillReceiveProps({ score, topScore }) {
 		let newState = { animating: true };
-		if ( score === 0 && topScore === 0 ) {
+		if (score === 12) {
+			newState.message = "winner"
+		}
+		else if ( score === 0 && topScore === 0 ) {
 			newState.message = ""
 		}
 		else if ( score === 0 && topScore > 0 ) {
@@ -29,9 +32,11 @@ class PtsCounter extends Component {
 	renderMessage = () => {
 		switch (this.state.message) {
 			case "correct":
-				return "Good thinking! You're correct!";
+				return "The force is with you! You are correct.";
 			case "incorrect":
-				return "You guessed incorrectly.";
+				return "You lack focus. The force is not with you. Try again.";
+			case "winner":
+				return "You WON! You are surely a mastermind jedi!  Congratulations on your feat."
 			default:
 				return "Click below to begin earning points."
 		}

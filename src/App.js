@@ -1,21 +1,9 @@
 //Global Imports
 import React from "react";
-
-//Components
-import Nav from "./components/Nav";
-import Header from "./components/Header";
 import GameBoard from "./components/GameBoard";
-import Footer from "./components/Footer";
+import {Collapsible, CollapsibleItem} from 'react-materialize';
 
 
-const App = props => (
-  <div>
-    <Nav/>
-    <Header/>
-    <GameBoard/>
-    <Footer/>
-  </div>   
-);
+const App = props =>  <GameBoard/>;
 
 export default App;
-// const Container = props => <main className="container">{props.children}</main>;
