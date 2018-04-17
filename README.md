@@ -17,5 +17,6 @@ Want to put your memory to the test?  Click [here](https://whispering-waters-238
  * JavaScipt
  * React-Materialize
  * CSS5
+ * JSX
  
 Built by [Lisa Jetton](https://github.com/JettTech/).
